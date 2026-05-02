@@ -57,7 +57,7 @@ class PostViewModel(
 [versions]
 hilt = "2.51.1"
 hilt-compose = "1.2.0"
-ksp = "1.9.22-1.0.17"
+ksp = "2.3.6"
 
 [libraries]
 hilt-android = { group = "com.google.dagger", name = "hilt-android", version.ref = "hilt" }

@@ -4,10 +4,10 @@
 ## Step 1 — Project Setup
 
 - [x] Create a new Android project in Android Studio
-- [ ] Add Hilt dependency in libs.versions.toml `Hilt`
-- [ ] Add Hilt Gradle plugin in build.gradle (project level) `Hilt`
-- [ ] Add kapt or KSP plugin in build.gradle (app level) `Hilt`
-- [ ] Add Room dependency in libs.versions.toml `Room`
+- [x] Add Hilt dependency in libs.versions.toml `Hilt`
+- [x] Add Hilt Gradle plugin in build.gradle (project level) `Hilt`
+- [x] Add kapt or KSP plugin in build.gradle (app level) `Hilt`
+- [x] Add Room dependency in libs.versions.toml `Room`
 - [ ] Add DataStore dependency in libs.versions.toml `DataStore`
 - [ ] Add WorkManager dependency in libs.versions.toml `WorkManager`
 - [ ] Sync Gradle and confirm no errors
