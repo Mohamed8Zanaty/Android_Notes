@@ -35,7 +35,7 @@ It handles:
 
 ## 2. WorkManager vs Other Background Options
 
-||Coroutines|WorkManager|Foreground Service|
+| |Coroutines|WorkManager|Foreground Service|
 |---|---|---|---|
 |**Survives app close**|❌ No|✅ Yes|✅ Yes|
 |**Survives reboot**|❌ No|✅ Yes|❌ No|
@@ -61,8 +61,6 @@ hilt-work = "1.2.0"
 workmanager = { group = "androidx.work", name = "work-runtime-ktx", version.ref = "workmanager" }
 hilt-work = { group = "androidx.hilt", name = "hilt-work", version.ref = "hilt-work" }
 hilt-work-compiler = { group = "androidx.hilt", name = "hilt-compiler", version.ref = "hilt-work" }
-
-[plugins]
 ```
 
 ### `build.gradle.kts` (app level)

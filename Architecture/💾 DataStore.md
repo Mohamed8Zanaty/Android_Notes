@@ -21,10 +21,10 @@
 
 It comes in two flavors:
 
-|Flavor|What it stores|Use when|
-|---|---|---|
-|**Preferences DataStore**|Key-value pairs (like SharedPreferences)|Simple settings — theme, language, token|
-|**Proto DataStore**|Typed objects using Protocol Buffers|Complex structured data with type safety|
+| Flavor                    | What it stores                           | Use when                                 |
+| ------------------------- | ---------------------------------------- | ---------------------------------------- |
+| **Preferences DataStore** | Key-value pairs (like SharedPreferences) | Simple settings — theme, language, token |
+| **Proto DataStore**       | Typed objects using Protocol Buffers     | Complex structured data with type safety |
 
 > 💡 **Analogy:** DataStore is like a small notepad the app keeps on the device. Every time the user changes a setting, you write it down. Every time the app starts, you read it back.
 
@@ -32,7 +32,7 @@ It comes in two flavors:
 
 ## 2. DataStore vs SharedPreferences vs Room
 
-||SharedPreferences|DataStore|Room|
+| |SharedPreferences|DataStore|Room|
 |---|---|---|---|
 |**API style**|Synchronous (blocks UI)|Coroutines + Flow (async) ✅|Coroutines + Flow ✅|
 |**Thread safe**|❌ No|✅ Yes|✅ Yes|
